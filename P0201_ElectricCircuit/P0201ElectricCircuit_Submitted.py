@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 # //  *******************************************************************************************************************
-# //  Developer       : Muhammad Shahid
-# //  Creation Date   : 27-11-2022
+# //  Developer         : Muhammad Shahid
+# //  Creation Date   : 26-11-2022
 # //  Project Name    : P0201 Electric Circuit - HIRSCH Maschinenbau  
 # //  Task            : String function with number of input bits and Boolean logic is given
 # //                    Compute Boolean logic and identify unused outout at each gate
 # //  Language	      : Python
 # //  Folder		  : Folder "P0201_Electric Circuit" contains code files for "P0201 Electric Circuit" assessment task
-# //  Miscellaneous Info : Folder "ManualDrawingBooleanLogic" contains by hand drawn Boolean logic for defined notations and 
-# //		               Digital Electric Circuit diagram for each test 
+# //  Miscellaneous Info : Folder "Boolean Logic" contains by hand drawn Boolean logic for defined notations and 
+# //		        Digital Electric Circuit diagram for each test 
 # //  *******************************************************************************************************************
 
 
@@ -155,3 +155,43 @@ if __name__ == '__main__':
     print(f'Unused True output logic for "{sTest1}" are {unusedOutputLogic}')
             
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def ANDGate(input1, input2):
+#     input1Values = [0,0,0,0]
+#     input2Values = [0,0,0,0]
+#     outputValuesAND = [0,1,0,0]
+#     print('\n*********   AND GATE     ************************\n')
+#     print('input-1: ', input1, 'input-2: ', input2)
+#     UpdateInputSignalBitValues()
+
+#     for x in range(0,len(inputSignalBitValues)):
+#         if inputSignalBit[x] == input1:
+#             input1Values = inputSignalValues[x]
+#         elif inputSignalBit[x] == input2:
+#             input2Values = inputSignalValues[x]
+        
+#     for y in range(0,4):
+#         outputValuesAND[y] = input1Values[y] & input2Values[y]
+#     print('i1: ', input1Values, 'i2: ', input2Values, ' Y: ', outputValuesAND)
+    
+#     ov = outputValuesAND
+#     keyInc = chr(ord(input2) + 1)
+#     inputSignalBitValues.update({keyInc  : ov})
+#     UpdateInputSignalBitValues()
+    
+#     return outputValuesAND
